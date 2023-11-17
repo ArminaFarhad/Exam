@@ -1,0 +1,30 @@
+﻿@page
+@model UserModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about building Web apps with ASP.NET Core.</p>
+</div>
+
+<form method="post" action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="lastname">LastName:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <label for="employeeId">EmployeeId:</label>
+    <input type="number" id="employeeId" name="employeeId" required><br><br>
+
+    <label for="birthdate">BirthDate:</label>
+    <input type="datetime" id="birthdate" name="birthdate" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+

@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{39389E3B-5641-41E4-92D0-DCB38355A2C4}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Eways PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Eways/Program.cs">
+    <Files>
+      <File FileName="Eways/Program.cs" Line="1" Column="1" />
+      <File FileName="Eways/Pages/Shared/_Layout.cshtml" />
+      <File FileName="Eways/appsettings.json" />
+      <File FileName="Eways/Properties/launchSettings.json" />
+      <File FileName="Eways/Pages/Privacy.cshtml" />
+      <File FileName="Eways/Pages/Privacy.cshtml.cs" />
+      <File FileName="Eways/Pages/Error.cshtml.cs" />
+      <File FileName="Eways/Pages/Shared/_Layout.cshtml.css" />
+      <File FileName="Eways.Infrastructure/BaseEntity.cs" />
+      <File FileName="Eways.Repository/Entities/User.cs" />
+      <File FileName="Eways.Repository/Mapper/UserMapper.cs" />
+      <File FileName="Eways/Services/UserService.cs" />
+      <File FileName="Eways.Repository/IService/IUserService.cs" />
+      <File FileName="Eways.Infrastructure/IBaseRepository.cs" />
+      <File FileName="Eways.Repository/Repositories/UserRepository.cs" />
+      <File FileName="Eways.Repository/IRepositories/IUserRepository.cs" />
+      <File FileName="Eways/Startup.cs" />
+      <File FileName="Eways/Pages/UserModel.cshtml.cs" />
+      <File FileName="Eways/Pages/UserModel.cshtml" />
+      <File FileName="Eways.Repository/Dtos/UserDto.cs" />
+      <File FileName="Eways.Infrastructure/BaseRepository.cs" />
+      <File FileName="Eways.Repository/Context/AppDbContext.cs" />
+      <File FileName=".vs/Eways/xs/UserPrefs.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Eways">
+            <Node name="Eways" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Eways.Infrastructure" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/armina/Projects/Eways/Eways/Pages/UserModel.cshtml.cs" relfile="Eways/Pages/UserModel.cshtml.cs" line="9" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

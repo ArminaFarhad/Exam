@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <ProjectReference Include="..\Eways.Infrastructure\Eways.Infrastructure.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Context\" />
+    <None Remove="Mapper\" />
+    <None Remove="Dtos\" />
+    <None Remove="IService\" />
+    <None Remove="Repositories\" />
+    <None Remove="IRepositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Context\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="IService\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="IRepositories\" />
+  </ItemGroup>
+</Project>
