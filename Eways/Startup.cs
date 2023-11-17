@@ -46,9 +46,7 @@ namespace Eways
             //services.AddEndpointsApiExplorer();
             //services.AddSwaggerGen();
 
-            services.AddRazorPages().AddRazorPagesOptions(options => {
-                options.RootDirectory = "/UserModel";
-            });
+            services.AddRazorPages();
 
 
 
