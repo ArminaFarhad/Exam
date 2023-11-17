@@ -23,3 +23,5 @@
 /Users/armina/Projects/Eways/Eways.Repository/obj/Debug/net7.0/refint/Eways.Repository.dll
 /Users/armina/Projects/Eways/Eways.Repository/obj/Debug/net7.0/Eways.Repository.pdb
 /Users/armina/Projects/Eways/Eways.Repository/obj/Debug/net7.0/ref/Eways.Repository.dll
+/Users/armina/Projects/Eways/Eways.Repository/bin/Debug/net7.0/Eways.Repository.runtimeconfig.json
+/Users/armina/Projects/Eways/Eways.Repository/obj/Debug/net7.0/Eways.Repository.genruntimeconfig.cache

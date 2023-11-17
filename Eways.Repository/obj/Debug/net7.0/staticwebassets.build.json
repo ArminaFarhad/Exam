@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lW7c+kzqCq3oWl2DGXpIdKEE5IPbTFgesWh8QSYSQhE=",
+  "Hash": "X8J87SGdS4Hb50hSOXVi2UoQ8CX5ObSRIbSEiFEcIR0=",
   "Source": "Eways.Repository",
   "BasePath": "_content/Eways.Repository",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "Eways.Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
